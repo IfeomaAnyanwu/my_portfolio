@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JIA Portfolio</title>
+  </head>
+  <body>
+    <!--Welcome Bar-->
+    <div class="welcome-wrapper">
+      <h1 class="welcome">welcome to my portfolio</h1>
+    </div>
+    <!--end of welcome bar-->
+
+    <div class="body-wrapper">
+      <!--header starts-->
+      <header>
+        <div class="logo">
+          <img
+            src="./images/justify logo2.png"
+            alt=""
+            width="50px"
+            id="justify-logo"
+          />
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="#" class="emailp">ifymmadu2002@yahoo.com</a>
+          </div>
+        </div>
+        <nav>
+          <div id="works">
+            <i class="fa-solid fa-file"></i>
+            <a href="works.html">works</a>
+          </div>
+          <div id="resume">
+            <i class="fa-solid fa-user"></i>
+            <a
+              href="https://drive.google.com/file/d/1BsHHIpPO20Mv0523c8UdvY94rFFrgxec/view?usp=drive_link"
+              target="_blank"
+              >resume</a
+            >
+          </div>
+        </nav>
+      </header>
+      <!--main body starts -->
+      <section>
+        <!--left links starts -->
+        <article class="left-links">
+          <a
+            href="https://www.linkedin.com/in/ifeoma-anyanwu-45a1b5ab/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a href="https://github.com/IfeomaAnyanwu" target="_blank">
+            <i class="fa-brands fa-github"></i
+          ></a>
+
+          <a href="https://www.facebook.com/ifeoma.anyanwu.5/" target="_blank">
+            <i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </article>
+        <!--Description starts -->
+        <div class="section-right">
+          <article class="description">
+            <i class="fa-solid fa-message"></i>
+            <p id="itsme">This is</p>
+            <h2>Ifeoma J. Anyanwu</h2>
+            <h1>full stack developer- <sub> trainee</sub></h1>
+            <p id="main-paragraph">
+              Dynamism in Information Technology (IT) is an age long dream of
+              mine.<br />
+              Welcome to my world of new skills.
+            </p>
+            <br />
+            <button id="phone" onclick="myFunction()">let's talk</button>
+          </article>
+
+          <!--image starts -->
+          <article class="img">
+            <img
+              src="./images/my pix april 2023_2 (2).jpg"
+              alt=""
+              id="my-pix"
+            />
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!--footer/copyright-->
+    <div class="copyright-wrapper">
+      <p class="copyright">
+        copyright &copy; J.I. Anyanwu 2023.
+        <span id="date"></span> all rights reserved.
+      </p>
+    </div>
+    <!--end of footer/copyright-->
+
+    <script>
+      function myFunction() {
+        alert(" Ifeoma's mobile phone line. is + 234 8036007596");
+      }
+    </script>
+  </body>
+</html>
