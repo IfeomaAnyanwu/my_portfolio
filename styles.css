@@ -541,26 +541,28 @@ Projects Mobile screen
     gap: -9rem;
     justify-content: center;
     background-color: transparent;
-    min-height: 120rem;
-    width: 90vw;
+    min-height: 230rem;
+    width: 85vw;
     margin-top: -0rem;
     margin-inline: auto;
     margin-bottom: 5rem;
   }
 
+  /*
   .project-img-wrapper {
-    /*border: 2px solid red; */
+    /*border: 2px solid red; 
     height: 35rem;
     width: 20rem;
     margin-top: 3rem;
   }
+  */
 
   .profile-page-proj,
   .search-engine-proj,
   .mbaise-newyork-proj,
   .justifycloud-proj,
   .overlay-page-proj {
-    margin-top: -37rem;
+    margin-top: -15rem;
   }
 
   .copyright {
