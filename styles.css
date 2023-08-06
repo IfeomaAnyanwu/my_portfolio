@@ -85,6 +85,8 @@ body {
   background: var(--clr-black-7);
   text-align: center;
   margin-top: 0px;
+  position: sticky;
+  top: 0px;
 }
 
 /*
