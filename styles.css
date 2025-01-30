@@ -87,7 +87,7 @@ body {
   margin-top: 0px;
   position: sticky;
   top: 0px;
-  z-index:5;
+  z-index: 5;
 }
 
 /*
@@ -313,7 +313,7 @@ Container for all projects
   gap: 4rem;
   justify-content: center;
   background-color: var(--clr-white);
-  height: 85rem;
+  height: auto;
   width: 95%;
   margin-top: -11rem;
   margin-inline: 2rem;
