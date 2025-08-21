@@ -273,6 +273,10 @@ sub {
   font-size: 1.7rem;
 }
 
+#main-heading{
+font-size: 1.2rem;
+}
+
 .description > h2 {
   color: var(--clr-primary-5);
   font-size: 1.5rem;
@@ -586,3 +590,4 @@ Projects Mobile screen
     margin-bottom: 0rem;
   }
 }
+
