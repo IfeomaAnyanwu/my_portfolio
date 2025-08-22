@@ -505,6 +505,10 @@ mobile screen responsiveness
     letter-spacing: 0.5px;
   }
 
+  #main-heading{
+  font-size: 1rem;  
+  }
+  
   .description > h2,
   #phone {
     font-size: 1.7rem;
@@ -590,6 +594,7 @@ Projects Mobile screen
     margin-bottom: 0rem;
   }
 }
+
 
 
 
