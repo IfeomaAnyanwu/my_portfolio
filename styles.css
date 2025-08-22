@@ -506,7 +506,8 @@ mobile screen responsiveness
   }
 
   #main-heading{
-  font-size: 1rem;  
+  font-size: 1rem; 
+  margin-inline: 1rem;  
   }
   
   .description > h2,
@@ -594,6 +595,7 @@ Projects Mobile screen
     margin-bottom: 0rem;
   }
 }
+
 
 
 
